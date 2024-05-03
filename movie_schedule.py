@@ -8,7 +8,6 @@ for key in current_movies:
     print(key)
 
 
-
 movie = input('What movie would you like the showtime for?\n')
 
 showtime = current_movies.get(movie)
